@@ -1,0 +1,12 @@
+com\hibernateproject\HibernateUtil.class
+servlets\Greeting.class
+entities\Release.class
+entities\Role.class
+servlets\Login.class
+entities\Priority.class
+entities\Comments.class
+entities\User.class
+entities\Status.class
+entities\Task.class
+entities\Project.class
+entities\Team.class

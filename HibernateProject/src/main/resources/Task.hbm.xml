@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+   <class name="entities.Task" table="task">
+      
+      <id name="idTask" type="int" column="idTask">
+         <generator class="native"/>
+      </id>
+      <property name="title" column="title" type="string"/>
+      <property name="description" column="description" type="string"/>
+      <property name="createdBy" column="createBy" type="int"/>
+      <property name="designedBy" column="designedBy" type="int"/>
+      <property name="implementedBy" column="implementedBy" type="int"/>
+      <property name="testedBy" column="testedBy" type="int"/>
+      <property name="id_Project" column="id_Project" type="int"/>
+      <property name="id_Status" column="id_Status" type="int"/>
+      <property name="id_Release" column="id_Release" type="int"/>
+      <property name="id_Priority" column="id_priority" type="int"/>
+   </class>
+</hibernate-mapping>
